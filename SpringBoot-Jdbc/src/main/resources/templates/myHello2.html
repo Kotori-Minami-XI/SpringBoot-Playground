@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyHello2</title>
+</head>
+<body>
+
+<div th:with="hero = ${heros[0]}">
+    <p th:text="${hero.username}"></p>
+    <p th:text="${hero.email}"></p><br>
+    <p th:text="${hero.phone}"></p><br>
+</div>
+
+<hr>
+<!--满足条件才显示-->
+<h1 th:if="${1 == 2}"}>if</h1><br>
+
+<!--不满足条件才显示-->
+<h1 th:unless="${1 == 2}"}>unless</h1><br>
+
+<div th:switch="${heros[0].username}">
+    <p th:case="'luban'">luban</p>
+    <p th:case="*">default</p>
+</div>
+
+<hr>
+
+<div>
+    <p th:each="hero,stat : ${heros}">
+        <span th:text="${hero.id}"></span>
+        <span th:text="${hero.username}"></span>
+        <span th:text="${hero.phone}"></span>
+        <span th:text="${#dates.format(hero.onlinetime,'yyyy-MM-dd')}"></span>
+        <span th:text="'元素总数：' + ${stat.size}"></span>
+        <span th:text="'已经遍历过的元素个数：' + ${stat.count}"></span>
+        <span th:text="'目前遍历的元素下标：' + ${stat.index}"></span>
+        <span th:text="'获取元素所有信息：' + ${stat.current}"></span>
+    </p>
+</div>
+
+
+
+</body>
+</html>

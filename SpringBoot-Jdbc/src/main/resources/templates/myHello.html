@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyHello</title>
+</head>
+<body>
+<h1 th:text="${name}">MyHello</h1>
+
+<hr>
+
+<div>
+    <p th:text="${hero.id}">MyHello</p><br>
+    <p th:text="${hero.email}">MyHello</p><br>
+    <p th:text="${hero.phone}">MyHello</p><br>
+    <p th:text="${'hero id = ' + hero.id}">MyHello</p><br>
+    <p th:text="'hero id = ' + ${hero.id}">MyHello</p><br>
+    <p th:text="${50+1}">MyHello</p><br>
+    <p th:text="${false == true}">MyHello</p><br>
+</div>
+
+<hr>
+
+<a href="" th:href="@{http://www.baidu.com}">绝对路径超链接</a><br>
+<img src="" th:src="@{/static/1.png}"><br>
+
+<hr>
+
+[(${HtmlContent})] <!--解析-->
+[[${HtmlContent}]] <!--不解析-->
+
+<hr>
+
+
+<hr>
+
+</body>
+</html>
