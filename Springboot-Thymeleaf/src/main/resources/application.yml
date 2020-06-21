@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+    static-path-pattern: /static/**
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm_db?characterEncoding=utf-8&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 19926172xz
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+  messages:
+    basename: i18n.login
+
+logging:
+  level:
+    com.Kotori: debug
+  path: "./test_log"
+
+
+mybatis:
+  mapper-locations: mapper/*.xml

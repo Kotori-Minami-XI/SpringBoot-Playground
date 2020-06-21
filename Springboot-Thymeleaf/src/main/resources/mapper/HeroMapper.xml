@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.Kotori.mapper.HeroMapper">
+    <insert id="insertHero">
+        INSERT INTO `tb_hero` (id,username,profession,phone,email,onlinetime)
+        VALUES (#{id},#{username},#{profession},#{phone},#{email},#{onlinetime})
+    </insert>
+
+    <select id="getAllHero" resultType="com.Kotori.domain.Hero">
+        SELECT * FROM `tb_hero`
+    </select>
+</mapper>

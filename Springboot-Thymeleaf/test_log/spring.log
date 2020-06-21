@@ -1,0 +1,209 @@
+2020-06-21 13:45:52.030  INFO 13860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:45:52.062  INFO 13860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:45:52.063  INFO 13860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:45:52.246  INFO 13860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:45:52.247  INFO 13860 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1704 ms
+2020-06-21 13:45:52.675  INFO 13860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:45:52.780  WARN 13860 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:45:53.341  INFO 13860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:45:53.391  INFO 13860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:45:53.392  INFO 13860 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:45:53.400  INFO 13860 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-06-21 13:45:53.401  INFO 13860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:45:53.405  INFO 13860 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.491 seconds (JVM running for 5.171)
+2020-06-21 13:46:28.230  WARN 13860 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [458] milliseconds.
+2020-06-21 13:46:31.049  INFO 13860 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:46:31.348  INFO 13860 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:46:31.354 DEBUG 13860 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:46:31.379 DEBUG 13860 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:46:31.404 DEBUG 13860 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:46:32.693  WARN 13860 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /add.html
+2020-06-21 13:46:42.963  INFO 15044 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 15044 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 13:46:42.965 DEBUG 15044 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 13:46:42.966  INFO 15044 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 13:46:43.008  INFO 15044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 13:46:43.009  INFO 15044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 13:46:44.350  INFO 15044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:46:44.376  INFO 15044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:46:44.376  INFO 15044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:46:44.548  INFO 15044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:46:44.548  INFO 15044 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1539 ms
+2020-06-21 13:46:44.938  INFO 15044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:46:45.030  WARN 15044 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:46:45.539  INFO 15044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:46:45.586  INFO 15044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:46:45.587  INFO 15044 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:46:45.592  INFO 15044 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 13:46:45.594  INFO 15044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:46:45.598  INFO 15044 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.088 seconds (JVM running for 4.644)
+2020-06-21 13:46:50.657  WARN 15044 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [448] milliseconds.
+2020-06-21 13:46:53.626  INFO 15044 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:46:53.920  INFO 15044 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:46:53.926 DEBUG 15044 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:46:53.949 DEBUG 15044 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:46:53.977 DEBUG 15044 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:46:55.030  WARN 15044 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/avatar.png
+2020-06-21 13:47:15.752  INFO 15544 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 15544 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 13:47:15.754 DEBUG 15544 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 13:47:15.755  INFO 15544 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 13:47:15.795  INFO 15544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 13:47:15.795  INFO 15544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 13:47:17.130  INFO 15544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:47:17.153  INFO 15544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:47:17.153  INFO 15544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:47:17.325  INFO 15544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:47:17.325  INFO 15544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1530 ms
+2020-06-21 13:47:17.728  INFO 15544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:47:17.828  WARN 15544 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:47:18.336  INFO 15544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:47:18.386  INFO 15544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:47:18.387  INFO 15544 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:47:18.392  INFO 15544 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 13:47:18.394  INFO 15544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:47:18.399  INFO 15544 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.139 seconds (JVM running for 4.682)
+2020-06-21 13:47:22.120  WARN 15544 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [461] milliseconds.
+2020-06-21 13:47:24.755  INFO 15544 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:47:25.055  INFO 15544 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:47:25.063 DEBUG 15544 --- [http-nio-8080-exec-2] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:47:25.083 DEBUG 15544 --- [http-nio-8080-exec-2] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:47:25.109 DEBUG 15544 --- [http-nio-8080-exec-2] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:47:41.843  INFO 1480 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 1480 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 13:47:41.846 DEBUG 1480 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 13:47:41.847  INFO 1480 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 13:47:41.897  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 13:47:41.897  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 13:47:43.372  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:47:43.396  INFO 1480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:47:43.397  INFO 1480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:47:43.587  INFO 1480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:47:43.587  INFO 1480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1690 ms
+2020-06-21 13:47:44.217  INFO 1480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:47:44.335  WARN 1480 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:47:44.836  INFO 1480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:47:44.884  INFO 1480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:47:44.885  INFO 1480 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:47:44.890  INFO 1480 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 13:47:44.893  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:47:44.898  INFO 1480 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.754 seconds (JVM running for 5.34)
+2020-06-21 13:47:48.512  WARN 1480 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [445] milliseconds.
+2020-06-21 13:47:51.495  INFO 1480 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:47:51.795  INFO 1480 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:47:51.803 DEBUG 1480 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:47:51.823 DEBUG 1480 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:47:51.850 DEBUG 1480 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:47:52.784  WARN 1480 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/avatar.png
+2020-06-21 13:50:06.766  WARN 1480 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-21 13:50:27.769  INFO 11680 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 11680 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 13:50:27.771 DEBUG 11680 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 13:50:27.772  INFO 11680 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 13:50:27.813  INFO 11680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 13:50:27.814  INFO 11680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 13:50:29.151  INFO 11680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:50:29.175  INFO 11680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:50:29.175  INFO 11680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:50:29.348  INFO 11680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:50:29.348  INFO 11680 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1534 ms
+2020-06-21 13:50:29.744  INFO 11680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:50:29.851  WARN 11680 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:50:30.349  INFO 11680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:50:30.399  INFO 11680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:50:30.399  INFO 11680 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:50:30.404  INFO 11680 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-06-21 13:50:30.406  INFO 11680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:50:30.411  INFO 11680 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.123 seconds (JVM running for 4.61)
+2020-06-21 13:50:37.119  WARN 11680 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [436] milliseconds.
+2020-06-21 13:50:40.474  INFO 11680 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:50:40.775  INFO 11680 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:50:40.783 DEBUG 11680 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:50:40.805 DEBUG 11680 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:50:40.831 DEBUG 11680 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:50:42.076  WARN 11680 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/avatar.png
+2020-06-21 13:50:45.792  WARN 11680 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'hero' on field 'onlinetime': rejected value [321]; codes [typeMismatch.hero.onlinetime,typeMismatch.onlinetime,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [hero.onlinetime,onlinetime]; arguments []; default message [onlinetime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'onlinetime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '321'; nested exception is java.lang.IllegalArgumentException]]
+2020-06-21 13:50:54.692  WARN 11680 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'hero' on field 'onlinetime': rejected value []; codes [typeMismatch.hero.onlinetime,typeMismatch.onlinetime,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [hero.onlinetime,onlinetime]; arguments []; default message [onlinetime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'onlinetime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value ''; nested exception is java.lang.IllegalArgumentException]]
+2020-06-21 13:51:18.406  WARN 11680 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'hero' on field 'onlinetime': rejected value []; codes [typeMismatch.hero.onlinetime,typeMismatch.onlinetime,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [hero.onlinetime,onlinetime]; arguments []; default message [onlinetime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'onlinetime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value ''; nested exception is java.lang.IllegalArgumentException]]
+2020-06-21 13:52:55.792  INFO 18084 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 18084 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 13:52:55.794 DEBUG 18084 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 13:52:55.795  INFO 18084 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 13:52:55.838  INFO 18084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 13:52:55.840  INFO 18084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 13:52:57.292  INFO 18084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 13:52:57.317  INFO 18084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 13:52:57.318  INFO 18084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 13:52:57.454  INFO 18084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 13:52:57.454  INFO 18084 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1614 ms
+2020-06-21 13:52:57.850  INFO 18084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 13:52:57.948  WARN 18084 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 13:52:58.335  INFO 18084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 13:52:58.388  INFO 18084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 13:52:58.389  INFO 18084 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 13:52:58.394  INFO 18084 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 13:52:58.395  INFO 18084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 13:52:58.400  INFO 18084 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.119 seconds (JVM running for 4.863)
+2020-06-21 13:53:06.565  WARN 18084 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [473] milliseconds.
+2020-06-21 13:53:09.811  INFO 18084 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 13:53:10.128  INFO 18084 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 13:53:10.134 DEBUG 18084 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:53:10.158 DEBUG 18084 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:53:10.188 DEBUG 18084 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 13:53:11.215  WARN 18084 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/avatar.png
+2020-06-21 13:53:15.630 DEBUG 18084 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 13:53:15.631 DEBUG 18084 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 13:53:15.636 DEBUG 18084 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 14:01:25.332  INFO 12984 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 12984 (C:\Users\54356\Desktop\Java\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\Springboot-Thymeleaf)
+2020-06-21 14:01:25.334 DEBUG 12984 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 14:01:25.335  INFO 12984 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 14:01:25.374  INFO 12984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 14:01:25.374  INFO 12984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 14:01:26.711  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 14:01:26.735  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 14:01:26.736  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 14:01:26.904  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 14:01:26.904  INFO 12984 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1530 ms
+2020-06-21 14:01:27.301  INFO 12984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 14:01:27.387  WARN 12984 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 14:01:27.881  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 14:01:27.929  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 14:01:27.930  INFO 12984 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 14:01:27.935  INFO 12984 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 14:01:27.937  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 14:01:27.941  INFO 12984 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.15 seconds (JVM running for 4.902)
+2020-06-21 14:01:31.173  WARN 12984 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [430] milliseconds.
+2020-06-21 14:01:34.545  INFO 12984 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 14:01:34.829  INFO 12984 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 14:01:34.835 DEBUG 12984 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 14:01:34.855 DEBUG 12984 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 14:01:34.880 DEBUG 12984 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 10
+2020-06-21 14:01:35.995  WARN 12984 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/avatar.png
+2020-06-21 14:01:41.351 DEBUG 12984 --- [http-nio-8080-exec-7] com.Kotori.mapper.HeroMapper.insertHero  : ==>  Preparing: INSERT INTO `tb_hero` (id,username,profession,phone,email,onlinetime) VALUES (?,?,?,?,?,?) 
+2020-06-21 14:01:41.367 DEBUG 12984 --- [http-nio-8080-exec-7] com.Kotori.mapper.HeroMapper.insertHero  : ==> Parameters: null, 1(String), 1(String), 1(String), 1(String), 2020-10-10 00:00:00.0(Timestamp)
+2020-06-21 14:01:41.924 DEBUG 12984 --- [http-nio-8080-exec-7] com.Kotori.mapper.HeroMapper.insertHero  : <==    Updates: 1
+2020-06-21 14:01:41.946 DEBUG 12984 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 14:01:41.947 DEBUG 12984 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 14:01:41.982 DEBUG 12984 --- [http-nio-8080-exec-8] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 11
+2020-06-21 14:17:17.869  INFO 19620 --- [restartedMain] com.Kotori.Application                   : Starting Application on DESKTOP-CGLHDIQ with PID 19620 (C:\Users\54356\Desktop\Java\SpringBoot-Playground\Springboot-Thymeleaf\target\classes started by Kotori in C:\Users\54356\Desktop\Java\SpringBoot-Playground\Springboot-Thymeleaf)
+2020-06-21 14:17:17.873 DEBUG 19620 --- [restartedMain] com.Kotori.Application                   : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-21 14:17:17.873  INFO 19620 --- [restartedMain] com.Kotori.Application                   : No active profile set, falling back to default profiles: default
+2020-06-21 14:17:17.922  INFO 19620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-21 14:17:17.922  INFO 19620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-21 14:17:19.529  INFO 19620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-21 14:17:19.553  INFO 19620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-21 14:17:19.553  INFO 19620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-21 14:17:19.733  INFO 19620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-21 14:17:19.733  INFO 19620 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1811 ms
+2020-06-21 14:17:20.139  INFO 19620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-21 14:17:20.231  WARN 19620 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-06-21 14:17:20.744  INFO 19620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-21 14:17:20.801  INFO 19620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 14:17:20.801  INFO 19620 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-21 14:17:20.807  INFO 19620 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-21 14:17:20.808  INFO 19620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-21 14:17:20.815  INFO 19620 --- [restartedMain] com.Kotori.Application                   : Started Application in 3.376 seconds (JVM running for 6.708)
+2020-06-21 14:17:47.452  WARN 19620 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [450] milliseconds.
+2020-06-21 14:17:50.434  INFO 19620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-21 14:17:50.718  INFO 19620 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-21 14:17:50.724 DEBUG 19620 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==>  Preparing: SELECT * FROM `tb_hero` 
+2020-06-21 14:17:50.744 DEBUG 19620 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : ==> Parameters: 
+2020-06-21 14:17:50.768 DEBUG 19620 --- [http-nio-8080-exec-3] com.Kotori.mapper.HeroMapper.getAllHero  : <==      Total: 11
